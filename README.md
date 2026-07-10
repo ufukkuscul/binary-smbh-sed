@@ -4,7 +4,7 @@ Computational model of binary supermassive black hole SEDs (Spectreal Energy Dis
 # Modeling the Spectral Energy Distributions of Binary Supermassive Black Holes
 A first principles computational model showing that binary supermassive black hole (SMBH) systems produce a spectroscopically distinct signature; a spectral deficit that could help identify binary candidates observationally.
 
-**[Read the full write-up →](paper.pdf)**
+**[Read the full write-up →](Binary_smbh_research_paper.pdf)**
 
 # Key Result
 A binary SMBH system and a single quasar of the same total mass and accretion rate produce nearly identical SEDs at short wavelengths, but diverge sharply between ~0.05–0.5 μm. This spectral deficit is caused by the central cavity that a single quasar's disk doesn't have, since nothing clears that region. 
