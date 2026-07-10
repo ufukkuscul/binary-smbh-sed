@@ -18,14 +18,14 @@ This divergence is the core finding: it suggests broadband SED shape could serve
 
 The model is constructed bottom-up, in three stages:
 
-Blackbody radiation (Planck's Law) — the foundation for how any hot, optically thick surface emits light as a function of wavelength and temperature.
-Single quasar accretion disk (Shakura-Sunyaev thin disk theory) — treats the disk as a series of concentric blackbody rings, each at a temperature set by radius, black hole mass, and accretion rate:
+Blackbody radiation (Planck's Law), the foundation for how any hot, optically thick surface emits light as a function of wavelength and temperature.
+Single quasar accretion disk (Shakura-Sunyaev thin disk theory) treats the disk as a series of concentric blackbody rings, each at a temperature set by radius, black hole mass, and accretion rate:
 
                                     T(r) = T₀ × (r/r_in)^(−3/4) × [1 − √(r_in/r)]^(1/4)
 
-Integrating Planck's law over all these rings gives the full single-quasar SED.
+Integrating Planck's law over all these rings gives the full single quasar SED.
 
-Binary SMBH model — extends the single-disk model to three components: one outer circumbinary disk and two inner mini-disks, one around each black hole, separated by a central cavity cleared by the binary's orbital dynamics.
+Binary SMBH model extends the single disk model to three components: one outer circumbinary disk and two inner mini-disks, one around each black hole, separated by a central cavity cleared by the binary's orbital dynamics.
 
 <p align="center">
   <img src="figures/Binary_Figure.png" width="400" alt="Binary SMBH disk structure diagram">
@@ -38,3 +38,26 @@ Each component is modeled as its own thin disk, and the total SED is the sum of 
 </p>
 
 The hot, compact mini-disks (T₀ ~ 1.8–2.2 × 10⁵ K) dominate emission at short wavelengths, while the cooler, larger circumbinary disk (T₀ ~ 1.5 × 10⁴ K) dominates at longer optical wavelengths — the gap between them is the cavity signature.
+
+
+# Limitations
+
+This is an idealized model, and a few simplifications are worth keeping in mind:
+
+- Disk radii and accretion rates are assumed, not derived.
+- Gas streams that flow through the central cavity (see Liao et al. 2023) aren't modeled. In reality these could partially fill in the spectral deficit, making the signature harder to detect than this idealized case suggests.
+- The model doesn't account for viewing angle, dust obscuration, or jet contributions, all of which affect real observed SEDs.
+
+These are the natural next steps for extending the model toward something closer to an observationally testable prediction.
+
+# References
+
+Shakura, N. I., & Sunyaev, R. A. (1973). Black holes in binary systems. Observational appearance. Astronomy and Astrophysics.
+
+Liao, S., Johansson, P. H., Mannerkoski, M., Irodotou, D., Rizzuto, F. P., McAlpine, S., Rantala, A., Rawlings, A., & Sawala, T. (2023). Modelling 
+the accretion and feedback of supermassive black hole binaries in gas-rich galaxy mergers. MNRAS.
+
+# Author
+
+Ufuk Kuscul — Computer Science & Engineering, University of Connecticut
+Research conducted in the astrophysics group of Dr. Jonathan Trump.
