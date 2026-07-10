@@ -9,4 +9,4 @@ A first principles computational model showing that binary supermassive black ho
 A binary SMBH system and a single quasar of the same total mass and accretion rate produce nearly identical SEDs at short wavelengths, but diverge sharply between ~0.05–0.5 μm. This spectral deficit is caused by the central cavity that a single quasar's disk doesn't have, since nothing clears that region. 
 
 This divergence is the core finding: it suggests broadband SED shape could serve as an observational diagnostic for binary SMBH candidates, without needing to resolve the binary directly.
-![Spectral Differnece](figures/Binary_vs_Single_SED.jpg)
+<img src="figures/Binary_vs_Single_SED.jpg" width="450" alt="Spectral difference between binary and single quasar SEDs">
