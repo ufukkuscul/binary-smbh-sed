@@ -27,7 +27,7 @@ Integrating Planck's law over all these rings gives the full single-quasar SED.
 Binary SMBH model — extends the single-disk model to three components: one outer circumbinary disk and two inner mini-disks, one around each black hole, separated by a central cavity cleared by the binary's orbital dynamics.
 
 <p align="center">
-  <img src="figures/Binary_Structure.jpg" width="400" alt="Binary SMBH disk structure diagram">
+  <img src="figures/Binary SMBH Figure.jpg" width="400" alt="Binary SMBH disk structure diagram">
 </p>
 Each component is modeled as its own thin disk, and the total SED is the sum of all three, with the resulting cavity showing up directly as a dip in the combined spectrum.
 
